@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Подписка</string>
+    <string name="name">Имя пользователя</string>
+    <string name="e_mail">Электронная почта</string>
+    <string name="button_ok">ОК</string>
+    <string name="button_clear">Очистить</string>
+    <string name="succes_result">Подписка на рассылку успешно оформлена для пользователя %s на электронный адрес %s</string>
+    <string name="empty_name">Имя не может быть пустым!</string>
+    <string name="empty_email">Адрес электронной почты не может быть пустым!</string>
+</resources>
