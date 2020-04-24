@@ -27,7 +27,9 @@ public class MainActivity extends AppCompatActivity {
                     } else if (etEmail.getText().toString().equals("")) {
                         result.setText(getString(R.string.empty_email));
                     } else {
-                        result.setText(getString(R.string.succes_result, etName.getText(), etEmail.getText()));
+                        String etNameStr = etName.getText().toString().trim();
+                        String etEmailStr = etEmail.getText().toString().trim();
+                        result.setText(getString(R.string.succes_result, etNameStr, etEmailStr));
                     }
             }
         });
